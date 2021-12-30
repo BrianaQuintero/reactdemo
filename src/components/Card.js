@@ -2,8 +2,7 @@ import Header from "./Header";
 import Image from "./Image";
 import '../Card.css';
 
-function Card(props) {
-  const { title, content, url, alt } = props;
+function Card({ title, content, url, alt }) {
   return (
     <section>
       <Header>{title}</Header>
